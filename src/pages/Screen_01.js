@@ -13,6 +13,7 @@ import { useState } from "react";
 function Screen_01({ navigation }) {
   const [priceNew, setPriceNew] = useState("1.790.000");
   const [priceOld, setPriceOld] = useState("1.790.000");
+
   return (
     <SafeAreaView style={styles.container}>
       <Image style={styles.logo} source={images.vsXanh} />
@@ -36,7 +37,7 @@ function Screen_01({ navigation }) {
             <Text style={styles.priceOld}> </Text>
             <TouchableOpacity
               style={styles.tuoch}
-              onPress={() => navigation.navigate("Screen_02")}
+              onPress={() => navigation.navigate("Screen_03")}
             >
               <View style={styles.buttonTop}>
                 <Text style={styles.textButtonTop}>4 MÀU-CHỌN MÀU</Text>
