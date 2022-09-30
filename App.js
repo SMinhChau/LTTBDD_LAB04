@@ -7,6 +7,7 @@ import Screen_01 from "./src/pages/Screen_01";
 import Screen_02 from "./src/pages/Screen_02";
 import Screen_03 from "./src/pages/Screen_03";
 import Screen_4a from "./src/Lab_04/Screen_4a";
+import Sreem_4b from "./src/Lab_04/Screen_4b";
 
 export default function App() {
   const Stack = createNativeStackNavigator();
@@ -20,6 +21,7 @@ export default function App() {
         <Stack.Screen name="Screen_03" component={Screen_03} /> */}
         {/* Lab_04 */}
         <Stack.Screen name="Chat" component={Screen_4a} />
+        <Stack.Screen name="Sreem_4b" component={Sreem_4b} />
       </Stack.Navigator>
     </NavigationContainer>
   );

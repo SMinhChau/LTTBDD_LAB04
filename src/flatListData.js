@@ -3,7 +3,6 @@ var flatListData = [
     name: "Miyah Myles",
     email: "miyah.myles@gmail.com",
     position: "Data Entry Clerk",
-    price: "69.900đ",
 
     //"photo": "https://res.cloudinary.com/dekrbhxwu/image/upload/v1664164574/thoi_quen_hanh_vi_kotsyt.jpg"
   },

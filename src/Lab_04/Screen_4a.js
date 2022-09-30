@@ -42,7 +42,7 @@ const renderItem = ({ item, index }) => {
   );
 };
 
-function Screen_4a() {
+function Screen_4a({ navigation }) {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.contentTop}>
@@ -63,7 +63,10 @@ function Screen_4a() {
         <TouchableOpacity style={styles.btn__icon}>
           <IconHome name="menu" style={styles.btn__icon} size={37} />
         </TouchableOpacity>
-        <TouchableOpacity style={styles.btn__icon}>
+        <TouchableOpacity
+          style={styles.btn__icon}
+          onPress={() => navigation.navigate("Sreem_4b")}
+        >
           <IconHome name="home" style={styles.btn__icon} size={37} />
         </TouchableOpacity>
 
@@ -194,8 +197,4 @@ const styles = StyleSheet.create({
     alignItems: "center",
     flexDirection: "row",
   },
-
-  // btn__icon
-  btn__icon: {},
-  icon: {},
 });

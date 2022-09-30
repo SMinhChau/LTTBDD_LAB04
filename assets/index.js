@@ -10,5 +10,11 @@ const images = {
   hieu_long_con_tre: require("./hieu_long_con_tre.png"),
   lanh_dao_gian_don: require("./lanh_dao_gian_don.png"),
   xa_can_cau: require("./xa_can_cau.png"),
+  carbusbtops2_1: require("./carbusbtops2_1.png"),
+  daucam_1: require("./daucam_1.png"),
+  dauchuyendoi_1: require("./dauchuyendoi_1.png"),
+  dauchuyendoipsps2_1: require("./dauchuyendoipsps2_1.png"),
+  daynguon_1: require("./daynguon_1.png"),
+  giacchuyen_1: require("./giacchuyen_1.png"),
 };
 export default images;
